@@ -3,6 +3,8 @@ import 'package:tp2/Screens/Components/SalatContainer.dart';
 import 'package:tp2/Screens/Home/HomeScreen.dart';
 import 'package:tp2/Screens/SplashScreen/SplashScreen.dart';
 
+import 'Screens/Details/Details.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Salati',
       debugShowCheckedModeBanner: false,
-      home:SplashScreenPage(),
+      home:HomeScreen(),
     );
   }
 }

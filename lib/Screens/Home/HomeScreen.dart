@@ -52,31 +52,33 @@ class _HomeScreenState extends State<HomeScreen> {
               image: locations[1]['imagePath'].toString(),
               title: locations[0]['title'].toString(),
               desc: locations[0]['description'].toString(),
+              index: 0,
 
           ),
           SalatCompo(
             image: locations[1]['imagePath'].toString(),
             title: locations[1]['title'].toString(),
-            desc: locations[1]['description'].toString(),
+            desc: locations[1]['description'].toString(), index: 1,
 
           ),
           SalatCompo(
             image: locations[1]['imagePath'].toString(),
             title: locations[2]['title'].toString(),
             desc: locations[2]['description'].toString(),
+            index: 2,
 
           ),
           SalatCompo(
             image: locations[1]['imagePath'].toString(),
             title: locations[3]['title'].toString(),
             desc: locations[3]['description'].toString(),
-
+            index: 3,
           ),
           SalatCompo(
             image: locations[1]['imagePath'].toString(),
             title: locations[4]['title'].toString(),
             desc: locations[4]['description'].toString(),
-
+            index: 4,
           )
         ]),
       ),
